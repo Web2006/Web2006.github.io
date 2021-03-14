@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Market</title>
+    <link rel="stylesheet" href="../Fish Market/style.css">
+    <link rel="shortcut icon" href="../Fish Market/img/fish_market_logo.png">
+    <link rel="stylesheet" href="../Fish Market/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    
+    <!-- navigation -->
+
+    <nav>
+        <div class="logo">
+            <img src="../Fish Market/img/fish_market_logo.png" alt="">
+        </div>
+        <div class="pages">
+
+                <a href="#"><div class="page1">
+                    <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+                    <h2>HOME</h2>
+                </div></a>
+                <a href="#"><div class="page2">
+                    <i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i>
+                    <h2>SHOP</h2>
+                </div></a>
+                <a href="#"><div class="page3">
+                    <i class="fa fa-user fa-3x" aria-hidden="true"></i>
+                    <h2>ABOUT US</h2>
+                </div></a>
+                <a href="#"><div class="page4">
+                    <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+                    <h2>CONTACT</h2>
+                </div></a>
+
+        </div>
+
+        <button id="open_menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </nav>
+
+    <!-- aside -->
+
+    <aside>
+
+        <div class="user_info">
+            <img src="../Fish Market/img/user-logo.png" alt="">
+            <h2 id="userName">#User-Name</h2>
+        </div>
+
+
+        <div class="page5">
+            <i class="fa fa-registered fa-3x" aria-hidden="true"></i>
+            <h2>REGISTER</h2>
+        </div>
+
+        <button id="close_menu"><i class="fa fa-times" aria-hidden="true"></i></button>
+    </aside>
+
+    <div class="reg_popup">
+        <h1>Register</h1>
+        <form action="">
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="Lastname" id="lastname">
+            <input type="text" placeholder="Username" id="usName">
+            <input type="tel" placeholder="Telefon" id="phone">
+            <input type="email" placeholder="E-mail" id="mail">
+            <div class="password_block">
+                <input type="password" placeholder="Password" id="passw">
+                <button class="type_change_button" onclick="eye()"><i class="fa fa-eye" aria-hidden="true"></i></button>
+            </div>
+            <div class="gender_block">
+                <p>male
+            <input type="radio" name="gen" id="male"></p>
+            <p>female
+            <input type="radio" name="gen" id="female"></p>
+            </div>
+
+            <button id="Reg" type="button" onclick="clearInp()">Regist</button>
+        </form>
+    </div>
+    <!-- header -->
+    <header>
+        <img src="../Fish Market/img/header_back.gif" alt="">
+        <div class="hover_div_parent">
+            <p><b>Hello!</b> <br>You are in the Fish Market. Here you can find a wide range of seafood. Our products are always fresh and of good quality. Every year, on the birthday of the director of the organization, on March 5, there is a discount of up to 40%. Have fun!</p>
+            <a href="#"><button>Go to shop</button></a>
+        </div>
+    </header>
+<!-- main -->
+    <main>
+        <div class="advertisement">
+
+            <div class="image">
+            <img src="../Fish Market/img/sushi_1.png" alt="">
+            </div>
+
+            <div class="text">
+                <h1>You can find such a beautiful and delicious sushi in our online store.</h1>
+                <button>Get</button>
+            </div>
+
+        </div>
+
+        <div class="corier_title">
+             <h1>About delivery</h1>   
+        </div>
+
+        <div class="corier">
+
+                <div class="corier_image">
+                    <img src="../Fish Market/img/corier.jpg" alt="">
+                </div>
+                <div class="corier_text">
+                    <h2>Our deliveries are made with fast quality. Our organization has branches all over Europe in countries. The synonym of our organization is quality.</h2>
+                </div>
+        </div>
+
+        <div class="press">
+            <h1>The most famous European press writes about us.</h1>
+
+            <div class="grid_blocks">
+
+                <div class="block">
+                    <img src="../Fish Market/img/pres_1.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_2.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_3.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_4.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_5.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_6.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_7.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_8.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_9.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_10.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_11.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../Fish Market/img/pres_12.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="part_1">
+            <div class="social_pages">
+                <div class="pages_title">
+                    <h3>We in Social pages</h3>
+                </div>
+
+                <div class="pages_links">
+                    <a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play fa-3x" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="telephone">
+                    <i class="fa fa-phone" aria-hidden="true"></i><span>+374 98 62 12 44</span>
+                </div>
+                <div class="mail">
+                    <i class="fa fa-envelope" aria-hidden="true"></i><span>danielyan2006.2006@mail.ru</span>
+                </div>
+                <div class="geo">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Armenia Vanadzor</span>
+                </div>
+            </div>
+        </div>
+        <div class="part_2">
+            © All Rights Reserved 2021-2030
+        </div>
+    </footer>
+
+    <script src="../Fish Market/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
